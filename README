@@ -1,4 +1,4 @@
-First install and compile the emulator as detailed in
+First install and compile the emulator (if not already done) as detailed in
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideL1TOfflineDev#Work_flow_for_cms_l1t_offline_de
 The steps are copied here for completeness:
 cmsrel CMSSW_7_1_0_pre8
