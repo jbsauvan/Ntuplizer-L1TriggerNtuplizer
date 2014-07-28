@@ -1,0 +1,12 @@
+First install and compile the emulator as detailed in
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideL1TOfflineDev#Work_flow_for_cms_l1t_offline_de
+The steps are copied here for completeness:
+cmsrel CMSSW_7_1_0_pre8
+cd CMSSW_7_1_0_pre8/src
+cmsenv
+git cms-merge-topic --unsafe cms-l1t-offline:l1t-devel-$CMSSW_VERSION
+git checkout -b mydevel-branch
+
+Then install the ntuple maker:
+git clone git@github.com:jbsauvan/Ntuplizer-L1TriggerNtuplizer.git Ntuplizer/L1TriggerNtuplizer
+scram b -j 8
