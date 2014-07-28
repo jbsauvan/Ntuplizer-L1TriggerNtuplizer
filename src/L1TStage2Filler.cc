@@ -36,7 +36,6 @@ L1TStage2Filler::L1TStage2Filler(TTree* tree):
     m_tree->Branch("l1t_stage2_tower_n",         &m_tower_n, "l1t_stage2_tower_n/I");
     m_tree->Branch("l1t_stage2_tower_hwEta",     &m_tower_hwEta);
     m_tree->Branch("l1t_stage2_tower_hwPhi",     &m_tower_hwPhi);
-    m_tree->Branch("l1t_stage2_tower_hwPt",      &m_tower_hwPhi);
     m_tree->Branch("l1t_stage2_tower_hwEtEm",    &m_tower_hwEtEm);
     m_tree->Branch("l1t_stage2_tower_hwEtHad",   &m_tower_hwEtHad);
     m_tree->Branch("l1t_stage2_tower_hwEtRatio", &m_tower_hwEtRatio);
